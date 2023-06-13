@@ -23,5 +23,5 @@ table implementation to support its operations.
 Extended API functions include decreaseKey/increaseKey functions, which will modify the value, given a key and value "change" parameter, and a remove function, which removes an element, given a key. The hash table is utilized to ensure the functions run in constant + logarithmic time.
 
 ### Bugs ###
-~~- Calling the Priority Queue get() function causes a segmentation fault.~~ RESOLVED.
+- ~~Calling the Priority Queue get() function causes a segmentation fault.~~ RESOLVED.
 - increaseKey() function displays undefinded behavior after calling deleteMin().
