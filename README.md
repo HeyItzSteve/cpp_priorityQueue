@@ -1,7 +1,7 @@
-# Hash Table & Priority Queue with Extended API Implementation #
+# Hash Table & Priority Queue with Extended API #
 #### By Steven, Implemented in Data Structures Course ####
 
-## Hash Table Implementation ##
+## Hash Table ##
 The implementation of the hash table involves the use of a Key-Value pair to
 store the key of the hash table entry and the value of the entry. 
 
@@ -16,7 +16,7 @@ size is increased to the lowest prime number that is greater than or equal to
 "new/larger table" in the order which they appear in the old table, and then the
 new element is finally inserted.
 
-## Priority Queue Implementation ##
+## Priority Queue ##
 The implementation of the priority queue with extended API utilizes the hash
 table implementation to support its operations. 
 
