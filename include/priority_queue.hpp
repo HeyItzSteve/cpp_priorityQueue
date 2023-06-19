@@ -109,7 +109,6 @@ public:
      */
     friend std::ostream& operator<<(std::ostream& os, const PriorityQueue<ValueType>& pq)
     {
-        // TODO: Implement this method.
         unsigned counter = 0;
         unsigned current = 1;
 

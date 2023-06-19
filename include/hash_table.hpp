@@ -141,7 +141,6 @@ public:
      */
     friend std::ostream& operator<<(std::ostream& os, const HashTable<ValueType>& ht)
     {
-        // TODO: Implement this method.
         for(unsigned i = 0; i < ht.tableSize(); i++) {
             if(!ht.table[i].isEmpty) {
                 os << "Bucket " << i << ": " << ht.table[i].key << " -> " << ht.table[i].value << std::endl;
